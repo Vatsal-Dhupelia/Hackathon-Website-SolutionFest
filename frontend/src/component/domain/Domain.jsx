@@ -142,7 +142,9 @@ const Domain = () => {
     ];
 
     return (
-        <div className='container'>
+        <div className='container text-center'>
+            <h1 className='my-3'>Domains</h1>
+            <h2 className='my-3'>United Nation 17 Sustainable Development Goals</h2>
             <div className="row">
                 <div className="col-md-12">
                     <div className="row">

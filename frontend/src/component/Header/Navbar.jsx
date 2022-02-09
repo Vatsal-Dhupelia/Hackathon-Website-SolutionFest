@@ -17,7 +17,7 @@ const Navbar = () => {
                         <div className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <Link className="nav-link active px-3" aria-current="page" to="/home">Home</Link>
                             <Link className="nav-link px-3" to="/about">About</Link>
-                            <Link className="nav-link px-3" to="/domains">Domains</Link>
+                            <Link className="nav-link px-3" to="/domain">Domains</Link>
                             <Link className="nav-link px-3" to="/timeline">Timeline</Link>
                             <Link className="nav-link px-3" to="/rounds">Rounds</Link>
                             <Link className="nav-link px-3" to="/prizes">Prizes</Link>

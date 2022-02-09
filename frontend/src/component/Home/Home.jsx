@@ -1,14 +1,9 @@
 import React from 'react';
-<<<<<<< HEAD:frontend/src/component/Home/Home.jsx
 import './Home.css';
 import vector1 from '../../images/vector1.jpg';
-=======
-import vectorimg1 from "../../images/vector1.jpg"
-import vectorimg2 from "../../images/vector2.png"
-import vectorimg3 from "../../images/vector3.jpg"
-import vectorimg4 from "../../images/vector4.jpg"
-import "./Home.css"
->>>>>>> 5622a477934d15e81e58e9fac60c4a099b2eb31e:frontend/src/component/Home/Home.js
+import vectorimg2 from '../../images/vector2.png';
+import vectorimg3 from '../../images/vector3.jpg';
+import vectorimg4 from '../../images/vector4.jpg';
 
 const Home = () => {
   return (
