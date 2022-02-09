@@ -1,6 +1,6 @@
 import React from 'react';
-import vectorimg1 from "../../images/vector1.jpg"
-import "./Home.css"
+import './Home.css';
+import vector1 from '../../images/vector1.jpg';
 
 const Home = () => {
   return (
@@ -16,16 +16,16 @@ const Home = () => {
           </div>
         </div>
         <div className="img-container">
-          <img src={vectorimg1} alt="" />
+          <img src={vector1} alt="" />
         </div>
       </div>
-      <div className="trailer">
+      <div className="trailer my-5">
         <iframe src='https://www.youtube.com/embed/XBzU6XJ7Xvk'
           width='700'
           height='450'
-          frameborder='0'
+          frameBorder='0'
           allow='autoplay; encrypted-media'
-          allowfullscreen
+          allowFullScreen
           title='video'
         />
       </div>
