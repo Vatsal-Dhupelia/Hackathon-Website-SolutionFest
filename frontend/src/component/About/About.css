@@ -6,6 +6,7 @@
     height: 500px;
     padding: 30px;
     padding-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .content1{
@@ -167,5 +168,19 @@
     .abt-desc1{
         padding: 21px;
         font-size: 16px;
+    }
+}
+@media screen and (max-width: 380px){
+    .abt-container{
+        height: 650px;
+        display: flex;
+        flex-direction:column-reverse;
+        margin-bottom: 100px;
+    }
+    .abt-container1{
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
     }
 }

@@ -123,7 +123,7 @@ const Domain = () => {
             title: 'Life On Land',
             text: 'Protect, restore, and promote sustainable use of terrestrial ecosystems, manage forests, combat desertification and biodiversity loss, and halt and reverse land degradation.',
             link: 'https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/07/15_Why-It-Matters-2020.pdf',
-            color: 'rgba(0,125,188,255)'
+            color: 'rgba(62,176,73,255)'
         },
         {
             img: goal_16,
@@ -150,7 +150,7 @@ const Domain = () => {
                     <div className="row">
                         {cards.map((card, index) => {
                             return (
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-5"  style={{display: "flex",alignItems: "center",justifyContent:"center"}}>
+                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-5" style={{ display: "flex", justifyContent: "center" }}>
                                     <div className="card" style={{ width: "18rem", borderBottom: `10px solid ${card.color}`, borderRadius: "10px" }}>
                                         <img src={card.img} className="card-img-top" alt={`goal-${index + 1}`} />
                                         <div className="card-body">
