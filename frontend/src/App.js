@@ -12,6 +12,7 @@ import Timeline from "./component/timeline/Timeline"
 import Footer from "./component/footer/Footer"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './index.css'
 
 function App() {
   AOS.init();

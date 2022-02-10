@@ -22,6 +22,11 @@
 
 .hack-name h1{
     padding: 25px;
+    font-size: 70px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 600;
 }
 
 .caption{
@@ -30,6 +35,7 @@
 
 .caption h3{
     text-align: center;
+    font-weight: 300;
 }
 
 .img-container{
@@ -66,6 +72,12 @@
     color: #e26161;
     padding-bottom: 40px;
 }
+
+.titlepage h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
 
 #box{
     text-align: center;
@@ -120,10 +132,22 @@
     .main-container{
         display: flex;
         flex-direction:column-reverse;
+        padding: 10px;
     }
     .hack-name{
         width: 100%;
     }
+    .hack-name h1{
+        padding: 0;
+        padding-bottom: 20px;
+        font-size: 37px;
+        letter-spacing: 2px ;
+    }
+
+    .titlepage{
+        font-size: 10px;
+    }
+
     .img-container{
         width: 100%;
     }
