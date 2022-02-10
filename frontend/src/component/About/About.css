@@ -20,6 +20,9 @@
     align-items: center;
     
 }
+#abt-content1{
+    padding-top: 0;
+}
 .about-head{
     /* border: 2px solid red; */
     width: 100%;

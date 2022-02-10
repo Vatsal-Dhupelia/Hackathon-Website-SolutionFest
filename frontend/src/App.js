@@ -8,8 +8,12 @@ import Home from "./component/home/Home"
 import Navbar from "./component/header/Navbar"
 import Domain from "./component/domain/Domain"
 import About from "./component/about/About"
+import Timeline from "./component/timeline/Timeline"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
   return (
     <>
       <Router>
@@ -19,6 +23,7 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/domain" element={<Domain />} />
+          <Route exact path="/timeline" element={<Timeline />} />
         </Routes>
       </Router>
     </>

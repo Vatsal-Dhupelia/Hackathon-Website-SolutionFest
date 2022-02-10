@@ -29,7 +29,7 @@ const About = () => {
                 <div className="abt-img2">
                     <img src={vectorimg2} alt="" />
                 </div>
-                <div className="content1">
+                <div id='abt-content1' className="content1">
                     <div className="about-head3">
                         <h2>Our Mission</h2>
                     </div>
