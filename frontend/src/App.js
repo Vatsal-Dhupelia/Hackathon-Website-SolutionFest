@@ -9,6 +9,7 @@ import Navbar from "./component/header/Navbar"
 import Domain from "./component/domain/Domain"
 import About from "./component/about/About"
 import Timeline from "./component/timeline/Timeline"
+import Footer from "./component/footer/Footer"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/domain" element={<Domain />} />
           <Route exact path="/timeline" element={<Timeline />} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   );

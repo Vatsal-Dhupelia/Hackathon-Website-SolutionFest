@@ -59,18 +59,19 @@
 
 .abt-img1{
     /* border: 2px solid red; */
-    height: 300px;
+    height: 463px;
+    width: 670px;
     width: 50%;
     display: flex;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     justify-content: center;
     align-items: center;
 }
 
 .abt-img1 img{
-    padding: 7px;
-    height: 470px;
-    width: 550px;
+    /* padding: 7px; */
+    height: 428px;
+    width: 608px;
 }
 
 .abt-container1{
@@ -106,6 +107,7 @@
 }
 #box{
     border-radius: 40px;
+    background-color: white;
 }
 .desc-box img{
     border-radius: 50%;
@@ -139,7 +141,7 @@
         padding-top: 0px;
     }
     .abt-img1{
-        padding-top: 50px;
+        /* padding-top: 10px; */
         width: 100%;
     }
     #abt-img3{
