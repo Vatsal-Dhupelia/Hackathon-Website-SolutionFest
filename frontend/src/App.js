@@ -14,12 +14,14 @@ import Rounds from "./component/rounds/Rounds";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css'
+import ScrollToTop from "./component/ScrollToTop";
 
 function App() {
   AOS.init();
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
