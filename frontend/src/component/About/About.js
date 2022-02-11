@@ -59,26 +59,26 @@ const About = () => {
             <div className="judges-head">
                 <h2>Our Judges</h2>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                <div id="box" class="desc-box">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="row">
+                            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                <div id="box" className="desc-box">
                                     <i><img src={vectorimg1} alt="#" /></i>
                                     <h2>Name</h2>
                                     <p>Description</p>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                <div id="box" class="desc-box">
+                            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                <div id="box" className="desc-box">
                                     <i><img id='desc-box1' src={vectorimg1} alt="#" /></i>
                                     <h2>Name</h2>
                                     <p>Description</p>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                <div id="box" class="desc-box">
+                            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                <div id="box" className="desc-box">
                                     <i><img src={vectorimg1} alt="#" /></i>
                                     <h2>Name</h2>
                                     <p>Description</p>
