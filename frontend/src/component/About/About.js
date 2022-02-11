@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             <div className="abt-container">
-                <div className="content1" data-aos="zoom-in-right" data-aos-duration="2000">
+                <div className="content1">
                     <div className="about-head">
                         <h2>Hackathon Description</h2>
                     </div>
@@ -19,7 +19,7 @@ const About = () => {
                     </div>
 
                 </div>
-                <div className="abt-img1" data-aos="zoom-in-left" data-aos-duration="2000">
+                <div className="abt-img1">
                     <img src={vector1} alt="" />
                 </div>
             </div>
@@ -27,10 +27,10 @@ const About = () => {
                 <h2>About</h2>
             </div>
             <div className="abt-container1">
-                <div className="abt-img2" data-aos="zoom-in-right" data-aos-duration="2000">
+                <div className="abt-img2">
                     <img src={vectorimg2} alt="" />
                 </div>
-                <div id='abt-content1' className="content1" data-aos="zoom-in-left" data-aos-duration="2000">
+                <div id='abt-content1' className="content1">
                     <div className="about-head3">
                         <h2>Heading</h2>
                     </div>
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
             </div>
             <div className="abt-container">
-                <div className="content1" data-aos="zoom-in-right" data-aos-duration="2000">
+                <div className="content1">
                     <div id='abt-head3' className="about-head3">
                         <h2>Heading</h2>
                     </div>
@@ -52,32 +52,32 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div id='abt-img3' className="abt-img1" data-aos="zoom-in-left" data-aos-duration="2000">
+                <div id='abt-img3' className="abt-img1">
                     <img src={vector1} alt="" />
                 </div>
             </div>
-            <div className="judges-head" data-aos="flip-up">
+            <div className="judges-head">
                 <h2>Our Judges</h2>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                 <div id="box" class="desc-box">
                                     <i><img src={vectorimg1} alt="#" /></i>
                                     <h2>Name</h2>
                                     <p>Description</p>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                 <div id="box" class="desc-box">
                                     <i><img id='desc-box1' src={vectorimg1} alt="#" /></i>
                                     <h2>Name</h2>
                                     <p>Description</p>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                 <div id="box" class="desc-box">
                                     <i><img src={vectorimg1} alt="#" /></i>
                                     <h2>Name</h2>

@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="navbar-div sticky-top">
         <nav
-          className="navbar navbar-expand-lg navbar-light sticky-top" style={{backgroundColor: "white"}}
+          className="navbar navbar-expand-lg navbar-light sticky-top" style={{backgroundColor: "white", fontSize: "17px"}}
         >
           <div className="container-fluid">
             {/* <a className="navbar-brand" href="#">
@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
               <div className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <Link
-                  className="nav-link active px-3"
+                  className="nav-link px-3"
                   aria-current="page"
                   to="/home"
                 >
