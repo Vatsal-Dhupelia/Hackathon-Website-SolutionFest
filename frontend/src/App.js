@@ -13,6 +13,7 @@ import Footer from "./component/footer/Footer"
 import Rounds from "./component/rounds/Rounds";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './index.css'
 
 function App() {
   AOS.init();

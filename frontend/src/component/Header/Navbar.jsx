@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <div className="navbar-div sticky-top">
         <nav
-          className="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+          className="navbar navbar-expand-lg navbar-light sticky-top" style={{backgroundColor: "white", fontSize: "17px"}}
         >
           <div className="container-fluid">
             {/* <a className="navbar-brand" href="#">

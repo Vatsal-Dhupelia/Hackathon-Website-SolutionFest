@@ -10,12 +10,12 @@ const Home = () => {
     <>
       <div className="main-container" data-aos="fade-up" data-aos-duration="2000">
         <div className="hack-name" data-aos="fade-up" data-aos-duration="2000">
-          <h1>Solution Fest</h1>
-          <div className="caption">
-            <h3>Think. Code. Execute.</h3>
+          <h1>SOLUTION FEST</h1>
+          <div className="caption" style={{letterSpacing: "3px"}}>
+            <h3>THINK. CODE. EXECUTE.</h3>
           </div>
-          <div className="caption">
-            <h3>Let's bring out a solution to every challenge</h3>
+          <div className="caption" style={{paddingTop:"20px", letterSpacing: "2px", color: "#e26161"}}>
+            <h3>Let's bring out a solution to every challenge.</h3>
           </div>
         </div>
         <div className="img-container" data-aos="fade-up" data-aos-duration="2000">
@@ -36,8 +36,8 @@ const Home = () => {
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="titlepage" data-aos="flip-up">
-                <h1> Heading </h1>
+              <div class="titlepage" data-aos="flip-up" >
+                <h1> HEADING </h1>
               </div>
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
