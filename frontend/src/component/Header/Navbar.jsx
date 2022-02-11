@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css"
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+
   return (
     <>
       <div className="navbar-div sticky-top">
@@ -30,29 +33,26 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
               <div className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <Link
-                  className="nav-link active px-3"
+                  className={`nav-link ${location.pathname === '/home' ? 'active' : ''} px-3`}
                   aria-current="page"
                   to="/home"
                 >
                   Home
                 </Link>
-                <Link className="nav-link px-3" to="/about">
+                <Link className={`nav-link ${location.pathname === '/register' ? 'active' : ''} px-3`} to="/register">
+                  Register Here
+                </Link>
+                <Link className={`nav-link ${location.pathname === '/about' ? 'active' : ''} px-3`} to="/about">
                   About
                 </Link>
-                <Link className="nav-link px-3" to="/domain">
+                <Link className={`nav-link ${location.pathname === '/domain' ? 'active' : ''} px-3`} to="/domain">
                   Domains
                 </Link>
-                <Link className="nav-link px-3" to="/timeline">
+                <Link className={`nav-link ${location.pathname === '/timeline' ? 'active' : ''} px-3`} to="/timeline">
                   Timeline
                 </Link>
-                <Link className="nav-link px-3" to="/rounds">
+                <Link className={`nav-link ${location.pathname === '/rounds' ? 'active' : ''} px-3`} to="/rounds">
                   Rounds
-                </Link>
-                <Link className="nav-link px-3" to="/prizes">
-                  Prizes
-                </Link>
-                <Link className="nav-link px-3" to="/register">
-                  Register Here
                 </Link>
               </div>
             </div>
