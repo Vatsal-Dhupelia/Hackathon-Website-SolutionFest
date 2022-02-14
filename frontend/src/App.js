@@ -15,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css'
 import ScrollToTop from "./component/ScrollToTop";
+import Register from "./component/registertration/Register";
 
 function App() {
   AOS.init();
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/domain" element={<Domain />} />
           <Route exact path="/timeline" element={<Timeline />} />
           <Route exact path="/rounds" element={<Rounds />} />
+          <Route exact path="/register" element={<Register/>} />
         </Routes>
         <Footer />
       </Router>
