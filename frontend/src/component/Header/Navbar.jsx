@@ -17,7 +17,7 @@ const Navbar = () => {
                         <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"/>
                     </a> */}
             <Link className="navbar-brand" to="/">
-              Hackathon Name
+              <span style={{color: "#e26161"}}>SOLUTION</span> <span style={{color: "#653ab9"}}>FEST</span>
             </Link>
             <button
               className="navbar-toggler"
@@ -39,9 +39,6 @@ const Navbar = () => {
                 >
                   Home
                 </Link>
-                <Link className={`nav-link ${location.pathname === '/register' ? 'active' : ''} px-3`} to="/register">
-                  Register Here
-                </Link>
                 <Link className={`nav-link ${location.pathname === '/about' ? 'active' : ''} px-3`} to="/about">
                   About
                 </Link>
@@ -53,6 +50,9 @@ const Navbar = () => {
                 </Link>
                 <Link className={`nav-link ${location.pathname === '/rounds' ? 'active' : ''} px-3`} to="/rounds">
                   Rounds
+                </Link>
+                <Link className={`nav-link ${location.pathname === '/register' ? 'active' : ''} px-3`} to="/register">
+                  Register Here
                 </Link>
               </div>
             </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Register = () => {
   return (
     <div className='container my-5'>
-      Register
+      Form Link
     </div>
   )
 }
