@@ -10,14 +10,14 @@ const Navbar = () => {
     <>
       <div className="navbar-div sticky-top">
         <nav
-          className="navbar navbar-expand-lg navbar-light sticky-top" style={{backgroundColor: "white", fontSize: "17px"}}
+          className="navbar navbar-expand-lg navbar-light sticky-top" style={{ backgroundColor: "white", fontSize: "17px" }}
         >
           <div className="container-fluid">
             {/* <a className="navbar-brand" href="#">
                         <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"/>
                     </a> */}
             <Link className="navbar-brand" to="/">
-              Hackathon Name
+              Solution Fest
             </Link>
             <button
               className="navbar-toggler"
