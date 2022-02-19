@@ -1,7 +1,7 @@
 import React from 'react';
-import vectorimg1 from "../../images/vector5.jpg"
 import vectorimg2 from "../../images/vector24.jpg"
-import vector1 from '../../images/vector33.png';
+import vector2 from '../../images/vector1.jpg';
+import vector3 from '../../images/vector13.jpg';
 import "./About.css"
 
 const About = () => {
@@ -20,11 +20,11 @@ const About = () => {
 
                 </div>
                 <div className="abt-img1">
-                    <img src={vector1} alt="" />
+                    <img src={vector2} alt="" />
                 </div>
             </div>
-            <div className="about-head2" data-aos="flip-up">
-                <h2>About</h2>
+            <div className="about-head2">
+                <h2>ABOUT</h2>
             </div>
             <div className="abt-container1">
                 <div className="abt-img2">
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
                 <div id='abt-content1' className="content1">
                     <div className="about-head3 my-3">
-                        <h2>United Nations 17 Sustainable Development Goals</h2>
+                        <h2>OUTCOMES</h2>
                     </div>
                     <div className="abt-desc1">
                         <p style={{ textAlign: "justify" }}>
@@ -44,7 +44,7 @@ const About = () => {
             <div className="abt-container">
                 <div className="content1">
                     <div id='abt-head3' className="about-head3">
-                        <h2>Goal</h2>
+                        <h2>GOALS</h2>
                     </div>
                     <div id='about-desc1' className="abt-desc">
                         <p style={{ textAlign: "justify" }}>
@@ -53,7 +53,7 @@ const About = () => {
                     </div>
                 </div>
                 <div id='abt-img3' className="abt-img1">
-                    <img src={vector1} alt="" />
+                    <img src={vector3} alt="" />
                 </div>
             </div>
         </>

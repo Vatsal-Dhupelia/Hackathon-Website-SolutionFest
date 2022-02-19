@@ -39,9 +39,6 @@ const Navbar = () => {
                 >
                   Home
                 </Link>
-                <Link className={`nav-link ${location.pathname === '/register' ? 'active' : ''} px-3`} to="/register">
-                  Register Here
-                </Link>
                 <Link className={`nav-link ${location.pathname === '/about' ? 'active' : ''} px-3`} to="/about">
                   About
                 </Link>
@@ -53,6 +50,9 @@ const Navbar = () => {
                 </Link>
                 <Link className={`nav-link ${location.pathname === '/rounds' ? 'active' : ''} px-3`} to="/rounds">
                   Rounds
+                </Link>
+                <Link className={`nav-link ${location.pathname === '/register' ? 'active' : ''} px-3`} to="/register">
+                  Register Here
                 </Link>
               </div>
             </div>

@@ -38,7 +38,6 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(66, 133, 244)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(66, 133, 244)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Results of Round 1</h3>
-                        <p>Assessment will be founded on the submitted definition by members. Assuming that definition matches the UN's 17 Sustainable Development Goals, it is qualified for next round.</p>
                         <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>27/02/2022</h3></span>
                     </div>
                 </div>
@@ -51,7 +50,6 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(234, 67, 53)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(234, 67, 53)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Results of Round 2</h3>
-                        <p>Subsequent to getting chosen for the Intermediate Round, the assessment will be founded on the work completed for the chosen domain. You will asked to share the Github Link of the task at whatever point required. On the off chance that a group coordinates with the assessment rules, it will be qualified for the next round.</p>
                         <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>4/03/2022</h3></span>
                     </div>
                 </div>
@@ -64,8 +62,6 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(66, 133, 244)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(66, 133, 244)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Results of Round 3</h3>
-                        <p>Shortlisted teams will be announced for the final showdown…
-                            Be prepared to exhibit the work did with demo and Powerpoint Presentation momentarily clarifying your execution. The best solution will be declared winner of the Solution Fest!</p>
                         <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>5/03/2022</h3></span>
                     </div>
                 </div>

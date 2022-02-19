@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css'
 import ScrollToTop from "./component/ScrollToTop";
-import Register from "./component/registertration/Register";
+import Register from "./component/registertration/register";
 
 function App() {
   AOS.init();
