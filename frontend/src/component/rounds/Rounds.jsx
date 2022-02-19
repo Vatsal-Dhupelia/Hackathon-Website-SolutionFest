@@ -1,5 +1,4 @@
 import React from "react";
-import vectorimg1 from "../../images/vector5.jpg";
 import vectorimg3 from "../../images/vector22.jpg";
 import vectorimg2 from "../../images/vector23.jpg";
 import vector1 from "../../images/vector8.jpg";

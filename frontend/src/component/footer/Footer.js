@@ -7,7 +7,7 @@ const Footer = () => {
         <footer id='footer'>
             <p>CATCH US ON</p>
             <div className="leftFooter">
-                <a href="https://linktr.ee/GDSC_BVM" className='fa fa-tree'></a>
+                <a href="https://linktr.ee/GDSC_BVM" className='fa fa-tree' target="_blank" rel='noreferrer'></a>
             </div>
             <p>Email : <a href="mailto:gdsc@bvmengineering.ac.in">gdsc@bvmengineering.ac.in</a></p>
             <div className="midFooter">
