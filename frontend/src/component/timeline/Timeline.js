@@ -14,7 +14,7 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(66, 133, 244)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(66, 133, 244)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Starting date of Registration Form</h3>
-                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>21/02/2022</h3></span>
+                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>21<sup>st</sup> February, 2022</h3></span>
                     </div>
                 </div>
                 <div className='vertical-timeline-element--work vertical-timeline-element'>
@@ -26,7 +26,7 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(234, 67, 53)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(234, 67, 53)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Last date of Registration</h3>
-                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>25/02/20222</h3></span>
+                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>25<sup>th</sup> February, 2022</h3></span>
                     </div>
                 </div>
                 <div className='vertical-timeline-element--work vertical-timeline-element'>
@@ -38,7 +38,7 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(66, 133, 244)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(66, 133, 244)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Results of Round 1</h3>
-                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>27/02/2022</h3></span>
+                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>27<sup>th</sup> February, 2022</h3></span>
                     </div>
                 </div>
                 <div className='vertical-timeline-element--work vertical-timeline-element'>
@@ -50,7 +50,7 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(234, 67, 53)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(234, 67, 53)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Results of Round 2</h3>
-                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>4/03/2022</h3></span>
+                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>04<sup>th</sup> March, 2022</h3></span>
                     </div>
                 </div>
                 <div className='vertical-timeline-element--work vertical-timeline-element'>
@@ -62,7 +62,7 @@ const Timeline = () => {
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(66, 133, 244)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(66, 133, 244)" }}></div>
                         <h3 className='vertical-timeline-element-title'>Results of Round 3</h3>
-                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>5/03/2022</h3></span>
+                        <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>05<sup>th</sup> March, 2022</h3></span>
                     </div>
                 </div>
 

@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                     <div className="abt-desc1">
                         <p style={{ textAlign: "justify" }}>
-                            Created by the United Nations in 2015, with support from all 193 United Nations Member States, the 17 Sustainable Development Goals aim to end poverty, ensure prosperity, and protect the planet.
+                            All through the hackathon you will get an opportunity to learn, create and develop. Get to know another innovation. You will get an opportunity to change over your ideas into a solution for the world and feature your unequaled ability.
                         </p>
                     </div>
                 </div>
