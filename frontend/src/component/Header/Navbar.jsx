@@ -49,9 +49,9 @@ const Navbar = () => {
                 <Link className={`nav-link px-3`} to="/rounds">
                   Rounds
                 </Link>
-                {/* <Link className={`nav-link ${location.pathname === '/register' ? 'active' : ''} px-3`} to="/register">
+                <Link className={`nav-link px-3`} to="/register">
                   Register Here
-                </Link> */}
+                </Link>
               </div>
             </div>
           </div>

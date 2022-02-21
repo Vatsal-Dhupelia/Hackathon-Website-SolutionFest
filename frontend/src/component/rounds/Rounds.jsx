@@ -2,9 +2,6 @@ import React from "react";
 import vectorimg3 from "../../images/vector22.jpg";
 import vectorimg2 from "../../images/vector23.jpg";
 import vector1 from "../../images/vector8.jpg";
-import vectorp1 from "../../images/vector51.png";
-import vectorp2 from "../../images/vector52.png";
-import vectorp3 from "../../images/vector53.png";
 import "./Rounds.css";
 
 const Rounds = () => {
@@ -13,7 +10,7 @@ const Rounds = () => {
       <div className="abt-container">
         <div className="content1">
           <div className="about-head">
-            <h2>Selection Round </h2>
+            <h2>Selection Round (1<sup>st</sup> Round) </h2>
           </div>
           <div className="abt-desc">
             <p style={{ textAlign: "justify" }}>
@@ -31,7 +28,7 @@ const Rounds = () => {
         </div>
         <div id="abt-content1" className="content1">
           <div className="about-head3">
-            <h2>Intermediate Round</h2>
+            <h2>Intermediate Round (2<sup>nd</sup> Round) </h2>
           </div>
           <div className="abt-desc1">
             <p style={{ textAlign: "justify" }}>
@@ -43,7 +40,7 @@ const Rounds = () => {
       <div className="abt-container">
         <div className="content1">
           <div id="abt-head3" className="about-head3">
-            <h2>Final Round</h2>
+            <h2>Final Round (3<sup>rd</sup> Round) </h2>
           </div>
           <div id="about-desc1" className="abt-desc">
             <p style={{ textAlign: "justify" }}>Shortlisted teams will be announced for the final showdown…
