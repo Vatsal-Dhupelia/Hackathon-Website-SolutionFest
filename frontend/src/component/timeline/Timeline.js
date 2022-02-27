@@ -13,7 +13,7 @@ const Timeline = () => {
                     </span>
                     <div className='vertical-timeline-element-content bounce-in' style={{ background: "rgb(66, 133, 244)", color: "rgb(255, 255, 255)" }}>
                         <div className="vertical-timeline-element-content-arrow" style={{ borderRight: "7px solid rgb(66, 133, 244)" }}></div>
-                        <h3 className='vertical-timeline-element-title'>Starting date of Registration Form</h3>
+                        <h3 className='vertical-timeline-element-title'>Starting date of Registration</h3>
                         <span className='vertical-timeline-element-date'><h3 style={{ color: "black", textAlign: "center" }}>21<sup>st</sup> February, 2022</h3></span>
                     </div>
                 </div>

@@ -11,11 +11,11 @@ import About from "./component/about/About"
 import Timeline from "./component/timeline/Timeline"
 import Footer from "./component/footer/Footer"
 import Rounds from "./component/rounds/Rounds";
+import Results from "./component/results/Results";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css'
 import ScrollToTop from "./component/ScrollToTop";
-import Register from "./component/registertration/register";
 
 function App() {
   AOS.init();
@@ -31,7 +31,8 @@ function App() {
           <Route exact path="/domain" element={<Domain />} />
           <Route exact path="/timeline" element={<Timeline />} />
           <Route exact path="/rounds" element={<Rounds />} />
-          <Route exact path="/register" element={<Register/>} />
+          <Route exact path="/results" element={<Results />} />
+
         </Routes>
         <Footer />
       </Router>
