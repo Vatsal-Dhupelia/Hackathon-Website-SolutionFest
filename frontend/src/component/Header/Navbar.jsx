@@ -52,7 +52,6 @@ const Navbar = () => {
                 <Link className={`nav-link px-3`} to="/results">
                   Results
                 </Link>
-                <a className={`nav-link px-3`} href="https://docs.google.com/forms/d/e/1FAIpQLScFt_GCJP2yvOOh8R2hZZ7hpE7Pf4INLp_RUihLK1IowL_ZBQ/viewform?embedded=true" target="_blank">Register Here</a>
               </div>
             </div>
           </div>

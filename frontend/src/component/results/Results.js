@@ -1,73 +1,38 @@
 import React from 'react'
+import fireworks from '../../images/Fireworks.gif'
+import winner from '../../images/vector51.png'
+import runnerup1 from '../../images/vector52.png'
+import runnerup2 from '../../images/vector53.png'
 
 const Results = () => {
   return (
-    <>
-      <div className="about-head">
-        <h2> RESULTS - ROUND 1</h2>
-        <h4>Qualifying Teams</h4>
-      </div>
-      <div className="abt-container">
-        <div className="content1">
-          <div className="about-head" style={{ color: "#653ab9" }}>
-            <h4 style={{ textAlign: "center" }}>
-              Mustafa Kapasi - CP
-            </h4>
-            <h4 style={{ textAlign: "center" }}>
-              Vandan Parekh - EC
-            </h4>
-            <h4 style={{ textAlign: "center" }}>
-              Avni Rohit - CP
-            </h4>
-            <h4 style={{ textAlign: "center" }}>
-              Jay Patel - IT
-            </h4>
-            <h4 style={{ textAlign: "center" }}>
-              Vihar Prajapati - CP
-            </h4>
-            <h4 style={{ textAlign: "center" }}>
-              Jayraj Malamdi - IT
-            </h4>
-            <h4 style={{ textAlign: "center" }}>
-              Dhruvil Patel - IT
-            </h4>
-            <h4 style={{ textAlign: "center" }}>
-              Rajveer Rathod - CP
-            </h4>
-
-          </div>
-        </div>
-        <div className="abt-img1" style={{ flexDirection: "column", textAlign: "justify", color: "#653ab9" }}>
-          <h4 style={{ textAlign: "center" }}>
-            Bharat Bhoi - ME
-          </h4>
-          <h4 style={{ textAlign: "center" }}>
-            Hetal Harijan - EE
-          </h4>
-          <h4 style={{ textAlign: "center" }}>
-            Pratham Shah - IT
-          </h4>
-          <h4 style={{ textAlign: "center" }}>
-            Harshad Parghi - CP
-          </h4>
-          <h4 style={{ textAlign: "center" }}>
-            Mohan Verma - EC
-          </h4>
-          <h4 style={{ textAlign: "center" }}>
-            Jay Patel - CP
-          </h4>
-          <h4 style={{ textAlign: "center" }}>
-            Hanish Kulin - EC
-          </h4>
-          <h4 style={{ textAlign: "center" }}>
-            Najirmahmmad - IT
-          </h4>
+    <div className='container'>
+      <div class="card mb-3 text-center my-5" style={{ backgroundImage: "url(" + fireworks + ")", backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundColor: 'black' }}>
+        <img src={winner} class="card-img-top" alt="winner" style={{ width: '30%', margin: 'auto' }} />
+        <div class="card-body">
+          <h1 class="card-title" style={{ color: 'rgb(232,85,16)' }}>Team Dominator Coders</h1>
+          <h5 class="card-text my-2" style={{ color: 'white' }}>DHRUVIL KETANKUMAR PATEL</h5>
+          <h5 className='card-text my-2' style={{ color: 'white' }}>PATEL PARTHKUMAR BHAVIKBHAI</h5>
         </div>
       </div>
-      <div className="about-head" style={{paddingBottom: "80px"}}>
-          <h2 style={{padding: "5px"}}>A Heartiest Congratulations to all the Participants.</h2>
+      <div class="card mb-3 text-center my-5" style={{ backgroundImage: "url(" + fireworks + ")", backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundColor: 'black' }}>
+        <img src={runnerup1} class="card-img-top" alt="winner" style={{ width: '30%', margin: 'auto' }} />
+        <div class="card-body">
+          <h1 class="card-title" style={{ color: 'rgb(232,85,16)' }}>Team FitGeeks</h1>
+          <h5 class="card-text my-2" style={{ color: 'white' }}>SMIT JITEN BHANSALI</h5>
+          <h5 className='card-text my-2' style={{ color: 'white' }}>ADITYA CHAUHAN</h5>
+          <h5 className='card-text my-2' style={{ color: 'white' }}>PRATHAM SHAH</h5>
         </div>
-    </>
+      </div>
+      <div class="card mb-3 text-center my-5" style={{ backgroundImage: "url(" + fireworks + ")", backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundColor: 'black' }}>
+        <img src={runnerup2} class="card-img-top" alt="winner" style={{ width: '30%', margin: 'auto' }} />
+        <div class="card-body">
+          <h1 class="card-title" style={{ color: 'rgb(232,85,16)' }}>Team Believer</h1>
+          <h5 class="card-text my-2" style={{ color: 'white' }}>AKSHIT TRIVEDI</h5>
+          <h5 className='card-text my-2' style={{ color: 'white' }}>JAY PATEL</h5>
+        </div>
+      </div>
+    </div>
   );
 }
 
